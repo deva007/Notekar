@@ -1,4 +1,4 @@
-package com.devamahe.notekar
+package com.devamahe.notekar.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
