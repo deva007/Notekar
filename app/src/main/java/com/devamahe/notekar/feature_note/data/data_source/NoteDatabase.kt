@@ -11,4 +11,8 @@ import com.devamahe.notekar.feature_note.domain.model.Note
 
 abstract class NoteDatabase : RoomDatabase() {
     abstract val noteDao: NoteDao
+
+    companion object {
+       const val NOTES_DATABASE = "notes_db"
+    }
 }
