@@ -17,6 +17,6 @@ data class Note(
     }
 }
 
-class InValidNoteExceptionClass(message: String): Exception(message)
+class InValidNoteExceptionClass(message: String) : Exception(message)
 
 
